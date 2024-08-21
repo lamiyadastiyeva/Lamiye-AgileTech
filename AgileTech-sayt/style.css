@@ -1,0 +1,717 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+:root{
+    --padding: 0 115px;
+}
+/* header start  */
+header{
+    width: 100%;
+}
+nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.navbar-logo{
+    width: 30%;
+    max-width: 405px !important;
+    height: 147px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("./images/AgileTech-logo-bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 100% 50%;
+}
+.navbar-logo img{
+    width: 201px;
+    height: 51px;
+}
+.general-navbar{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.navbar-top{
+    width: 100%;
+    height: 51px;
+    display: flex;
+    margin-top: 0;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 16px 15px 0px;
+    background: transparent !important;
+}
+.navbar-top-left ul{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 12px;
+}
+.navbar-top-left ul li{
+    font-size: 13px;
+    color: #010d14;
+    margin-right: 15px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 500;
+}
+.navbar-top-right ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar-top-right ul li{
+    font-size: 14px;
+    margin-right: 15px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 500;
+}
+.navbar-top-right ul li a{
+    color: #010d14 !important;
+}
+.navbar-bottom{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 12px 0 0;
+}
+.navbar-bottom-left ul{
+    width: 100%;
+    max-width: 736px;
+    padding: 0 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar-bottom-left ul li a{
+    padding-left: 3px !important;
+    padding-right: 14px;
+    margin-right: 12px;
+    font-weight: 600;
+    color: #101a29;
+    line-height: 80px;
+    text-transform: capitalize;
+    font-size: 14px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+.navbar-bottom-left ul li a:hover{
+    color: #246bfd;
+}
+.navbar-bottom button{
+    height: 55px;
+    color: #fff;
+    background-color: #246bfd;
+    margin-left: 15px;
+    font-size: 1rem;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 600;
+    line-height: 55px;
+    padding: 0 30px;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    z-index: 0;
+    background-image: -webkit-linear-gradient(45deg, #101a29 50%, transparent 50%);
+    background-image: linear-gradient(45deg, #101a29 50%, transparent 50%);
+    background-position: 100%;
+    background-size: 400%;
+    transition: 1.5s ease-in-out;
+}
+
+.navbar-bottom button:hover {
+    background-color: #fff !important;
+    transition: all 2s ease;
+    background-position: 0;
+    z-index: -1;
+}
+.menu-icon{
+    display: none;
+}
+.menu-icon i{
+    cursor: pointer;
+    color: #010d14;
+    font-size: 30px;
+}
+/* header end  */
+
+/* section 1 start  */
+section.sec1{
+    width: 100%;
+    height: 831px;
+    padding: 210px 0 70px;
+    background-image: url("./images/AgileTech-sec1-bg.jpg");
+    background-size: cover !important;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    z-index: 0;
+}
+.sec1 .container{
+    width: 100%;
+    height: auto;
+    padding: var(--padding);
+}
+.sec1 h6{
+    margin-bottom: 1.5rem !important;
+    color: #fff;
+    font-size: 16px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.24;
+}
+.sec1 h2{
+    width: 427px;
+    font-size: 60px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    color: #fff;
+    line-height: 1.24;
+}
+.sec1 p{
+    width: 427px;
+    margin-bottom: 32px;
+    padding-right: 1.5rem !important;
+    font-weight: 500;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 16px;
+    color: #737588;
+    line-height: 1.7;
+}
+.sec1 button{
+    height: 55px;
+    color: #fff;
+    background-color: #246bfd;
+    font-size: 1rem;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 600;
+    line-height: 55px;
+    padding: 0 30px;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    z-index: 0;
+    background-image: -webkit-linear-gradient(45deg, #Fff 50%, transparent 50%);
+    background-image: linear-gradient(45deg, #fff 50%, transparent 50%);
+    background-position: 100%;
+    background-size: 400%;
+    transition: 1.5s ease-in-out;
+}
+.sec1 button:hover {
+    background-color: #fff !important;
+    transition: all 2s ease;
+    background-position: 0;
+    z-index: -1;
+    color: #101a29 !important;
+}
+/* section 1 end  */
+
+/* section 5 start  */
+section.sec5{
+    width: 100%;
+    height: 519px;
+    padding: 110px 0 100px;
+    background-image: url("./images/AgileTech-sec5-bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+}
+.sec5 .container{
+    width: 100%;
+    padding: var(--padding);
+}
+.sec5 .cards{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 12px 90px;
+}
+.sec5 .card{
+    width: 285px;
+    padding: 0 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.sec5 .card img{
+    transition: .4s;
+}
+.sec5 .card:hover img{
+    transition: .4s;
+    transform: rotateY(180deg);
+}
+.sec5 .card h2{
+    margin-bottom: .5rem !important;
+    margin-top: 1.5rem !important;
+    color: #fff;
+    font-weight: 600;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 40px;
+    line-height: 1.24;
+}
+.sec5 .card p{
+    margin-bottom: 10px;
+    color: #fff;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 16px;
+    line-height: 1.7;
+    font-weight: 500;
+}
+.image-form{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.image-form img{
+    width: 736px;
+    height: 805px;
+}
+.form{
+    position: absolute;
+    width: 546px;
+    height: 636px;
+    background-color: #fff;
+    padding: 50px;
+    margin-top: 0px;
+    right: 0px;
+    top: 50px;
+    border-radius: 5px;
+    box-shadow: 0 3px 20px rgba(0, 33, 71, .06);
+}
+.form h6{
+    color: #246bfd;
+    margin-bottom: 1rem !important;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 16px;
+    line-height: 1.24;
+    font-weight: 600;
+}
+.form h2{
+    font-size: 35px;
+    color: #101a29;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    line-height: 1.24;
+    font-weight: 600;
+}
+.form p{
+    width: 100%;
+    margin-top: 17px;
+    margin-bottom: 20px;
+    color: #737588;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 16px;
+    line-height: 1.7;
+    font-weight: 500;
+}
+form .input-one, .input-two{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+form input{
+    width: 211px !important;
+    height: 50px;
+    padding: 0 12px;
+    margin-bottom: 20px;
+    outline: none;
+    border: 1px solid hsla(33, 32%, 88%, .7) !important;
+    width: 100%;
+    height: 50px;
+    padding: 0 18px;
+    border-radius: 6px;
+    font-weight: 300;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    color: #737588;
+    font-size: 16px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+form input::placeholder, textarea::placeholder{
+    font-weight: 400;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 16px;
+    line-height: 1.24;
+    color: #737588;
+}
+form textarea{
+    width: 446px;
+    border: 1px solid hsla(33, 32%, 88%, .7) !important;
+    background: transparent;
+    width: 100%;
+    height: 140px;
+    border-radius: 6px;
+    padding: 14px 18px;
+    font-weight: 300;
+    resize: vertical;
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    outline: none;
+    color: #737588;
+    font-size: 16px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+.form button{
+    width: 100%;
+    border-radius: 5px !important;
+    color: #fff;
+    background-color: #246bfd;
+    height: 55px;
+    line-height: 55px;
+    padding: 0 30px;
+    overflow: hidden;
+    border: 0;
+    font-weight: 600;
+    font-size: 1rem;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    cursor: pointer;
+    z-index: 0;
+    margin-top: 20px;
+    background-image: -webkit-linear-gradient(45deg, #101a29 50%, transparent 50%);
+    background-image: linear-gradient(45deg, #101a29 50%, transparent 50%);
+    background-position: 100%;
+    background-size: 400%;
+    transition: 1.5s ease-in-out;
+}
+.form button:hover {
+    background-color: #fff !important;
+    transition: all 2s ease;
+    background-position: 0;
+    z-index: -1;
+    /* color: #101a29 !important; */
+}
+/* section 5 end  */
+
+/* responsive  */
+@media (max-width: 1200px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        max-width: 1200px;
+    }
+    .navbar-logo{
+        width: 26%;
+        height: 96px !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-image: url("./images/AgileTech-logo-bg.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 38.4%;
+    }
+    .navbar-logo img{
+        width: 170px;
+        height: 43px;
+    }
+    .navbar-top{
+        display: none;
+    }
+    .menu-icon{
+        display: none;
+    }
+    .sec1{
+        width: 100%;
+        padding: 0 120px;
+    }
+    .sec1 h2{
+        width: 376px;
+        font-size: 60px;
+        margin-bottom: 20px;
+        font-weight: 700;
+        font-family: "Plus Jakarta Sans", sans-serif;
+        color: #fff;
+        line-height: 1.24;
+    }
+    .sec1 p{
+        width: 376px;
+        margin-bottom: 32px;
+        flex-wrap: wrap;
+        padding: 0 !important;
+        font-weight: 500;
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-size: 16px;
+        color: #737588;
+        line-height: 1.7;
+    }
+    .sec5 .image-form img{
+        width: 616px;
+        height: 673.4px;
+    }
+    .sec5 .image-form .form{
+        width: 486px;
+        height: 597px;
+        padding: 30px;
+    }
+    .sec5 form input{
+        width: 201px !important;
+    } 
+}
+
+@media (max-width: 992px) {
+    header{
+        width: 100%;
+        height: 96px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .navbar-logo{
+        width: 100%;
+        height: 51px !important;
+        position: absolute;
+        top: -8px;
+        background-image: url("./images/AgileTech-logo-bg.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 100% 100%;
+        
+    }
+    .navbar-logo img{
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 201px;
+        height: 51px;
+    }
+    .navbar-top{
+        width: 992px !important;
+        display: none;
+        margin: 0;
+        padding: 0 !important;
+    }
+    nav ul{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        position: absolute;
+        top: 88px;
+        left: 0;
+        right: 0;
+        flex-direction: column;
+        z-index: 1;
+        background: #fff;
+        gap: 0;
+        overflow: hidden;
+    }
+    nav ul li {
+        width: 100%;
+        border-bottom: 1px solid rgba(0,0,0, .1);
+    }
+    .menu-icon{
+        position: absolute;
+        right: 150px;
+        bottom: 5px;
+        display: block !important;
+    }
+    .menu-icon i{
+        font-size: 20px;
+        color: #010d14;
+    }
+    #menu-list{
+        transition: all 0.5s;
+    }
+    header button{
+        display: none;
+    }
+    .menu-icon{
+        display: none;
+    }
+    .sec1 .container{
+        width: 100%;
+        padding: 0 30px;
+    }
+    .sec1 h2{
+        width: 696px !important;
+        font-size: 60px;
+        margin-bottom: 20px;
+        font-weight: 700;
+        font-family: "Plus Jakarta Sans", sans-serif;
+        color: #fff;
+        line-height: 1.24;
+    }
+    .sec1 p{
+        width: 696px !important;
+        margin-bottom: 32px;
+        flex-wrap: wrap;
+        padding: 0 !important;
+        font-weight: 500;
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-size: 16px;
+        color: #737588;
+        line-height: 1.7;
+    }
+    .sec5 .container{
+        width: 100%;
+        padding: 0 25px;
+    }
+    .sec5{
+        width: 992px;
+        height: 519px;
+        padding: 110px 0 100px 0;
+        background-image: url("/images/AgileTech-sec5-bg.jpg");
+        background-position: cover;
+        background-position: 50% 50%;
+    }
+    .sec5 .card{
+        width: 240px !important;
+        padding: 0 12px;
+    }
+    .sec5 .cards{
+        width: 100%;
+        padding-bottom: 90px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .sec5 .image-form{
+        position: relative;
+    }
+    .sec5 .image-form img{
+        width: 616px;
+        height: 673.4px;
+    }
+    .sec5 .image-form .form{
+        width: 486px;
+        height: 597px;
+        padding: 30px;
+    }
+    .sec5 form input{
+        width: 201px !important;
+    }
+}
+@media (max-width: 768px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        max-width: 768px;
+    }
+    .navbar-bottom{
+        width: 768px !important;
+    }
+    nav ul{
+        /* width: 768px !important; */
+        display: flex;
+        position: absolute;
+        top: 88px;
+        left: 0;
+        right: 0;
+        flex-direction: column;
+        z-index: 1;
+        background: #fff;
+        gap: 0;
+        overflow: hidden;
+    }
+    nav ul li {
+        border-bottom: 1px solid rgba(0,0,0, .1);
+    }
+    .menu-icon{
+        position: absolute;
+        right: 30px;
+        bottom: 5px;
+        display: block !important;
+    }
+    .menu-icon i{
+        font-size: 20px;
+        color: #010d14;
+    }
+    #menu-list{
+        transition: all 0.5s;
+    }
+    header button{
+        display: none;
+    }
+    .sec1{
+        width: 100%;
+        padding: 0 120px;
+    }
+    .sec1 h2{
+        width: 516px;
+        font-size: 60px;
+        margin-bottom: 20px;
+        font-weight: 700;
+        font-family: "Plus Jakarta Sans", sans-serif;
+        color: #fff;
+        line-height: 1.24;
+    }
+    .sec1 p{
+        width: 516px;
+        margin-bottom: 32px;
+        flex-wrap: wrap;
+        padding: 0 !important;
+        font-weight: 500;
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-size: 16px;
+        color: #737588;
+        line-height: 1.7;
+    }
+    .sec5 .container{
+        width: 100%;
+        padding: 0 35px;
+    }
+    .sec5{
+        width: 768px !important;
+        height: 620px !important;
+        padding: 110px 0 100px 0;
+        background-image: url("/images/AgileTech-sec5-bg.jpg");
+        background-position: cover;
+        background-position: 50%;
+    }
+    .sec5 .cards{
+        width: 100%;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .sec5 .card{
+        width: 336px !important;
+    }
+    .sec5 .image-form{
+        width: 100%;
+        position: relative;
+    }
+    .sec5 .image-form img{
+        width: 696px;
+        height: 761px;
+    }
+    .sec5 .image-form .form{
+        height: 737px;
+        width: 696px;
+        padding: 30px;
+        margin-top: 100px;
+        position: absolute;
+        left: 0;
+        top: 100%;
+    }
+    .sec5 form .input-one, form .input-two{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .sec5 form .input-one input, form .input-two input{
+        width: 636px !important;
+    }
+    
+}
